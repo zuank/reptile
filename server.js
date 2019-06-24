@@ -3,7 +3,7 @@ const superagent = require('superagent')
 require('superagent-proxy')(superagent);
 const fs = require('fs');
 
-const reptileUrl = "http://javascript.ruanyifeng.com/nodejs/fs.html#toc1";
+const reptileUrl = "http://www.222bbn.com";
 const proxy = 'http://127.0.0.1:59773';
 const header = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -18,7 +18,7 @@ const header = {
     'Connection': 'keep-alive'
 };
 
-superagent.get(reptileUrl).set('header', header).proxy(proxy).end(function (err, res) {
+superagent.get(reptileUrl).set('header', header).end(function (err, res) {
     // 抛错拦截
 
     if (err) {
