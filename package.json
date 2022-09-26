@@ -12,6 +12,6 @@
     "cheerio": "^1.0.0-rc.2",
     "fs": "0.0.1-security",
     "superagent": "^4.0.0",
-    "superagent-proxy": "^2.0.0"
+    "superagent-proxy": "^3.0.0"
   }
 }
